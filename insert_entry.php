@@ -1,7 +1,7 @@
 <?php
 
 include("database.php");   
-$mysqli = new mysqli("sql111.epizy.com","epiz_29261661","","epiz_29261661_content");
+$mysqli = new mysqli("localhost","root","","content");
 
 if ($mysqli -> connect_errno) {
   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;

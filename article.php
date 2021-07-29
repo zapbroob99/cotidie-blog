@@ -7,16 +7,22 @@
 </head>
 <body>
     <!-- Header Section -->
-    <header  style="background-color:black;">       
+    <header  style="background-color:#1a1a1b;">       
         <div class="menu">
             
-         <a href=index.php>ana menü</a>
-         <a href=filmler.php>sinema</a>
-        <a href="#muhendislik">mühendislik</a>
-        <a href="#bilim">bilim</a>
-        <a href="#bilim">kültür</a>
+        <div class="menu">
+    <div class="menu-log">
+    <div onclick="location.href='index.php';" class="head1">
+        Cotidie
         </div>
-
+        </div>
+        <a href=filmler.php>sinema</a>
+        <a href=muhendislik.php>mühendislik</a>
+        <a href=bilim.php>bilim</a>
+        <a href=kultur.php>felsefe-kültür</a>
+        
+        
+    </div>
     </header>      
     
     
@@ -48,9 +54,13 @@
  </h1>
 
 </body>      
-    <div class = "body_sec">   
+    <div class = "article_sec">   
         <section id="Content">  
-        
+            <h1>
+            <?php
+            echo $article_title;
+            ?> 
+            </h1>
              <p>
             <?php
             echo $article_text;

@@ -8,10 +8,19 @@
 <body>
     <!-- Header Section -->
     <header  style="background-color:black;">       
-        <div class="menu">
-            
-            <a href=index.php>ana menü</a>
+    <div class="menu">
+    <div class="menu-log">
+    <div onclick="location.href='index.php';" class="head1">
+        Cotidie
         </div>
+        </div>
+        <a href=filmler.php>sinema</a>
+        <a href=muhendislik.php>mühendislik</a>
+        <a href=bilim.php>bilim</a>
+        <a style="color:#ff4500;" href=kultur.php>felsefe-kültür</a>
+        
+        
+    </div>
 
     </header>
     <?php include("links.php");?>         
