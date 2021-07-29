@@ -1,0 +1,95 @@
+
+        .menu a:hover{
+           color:rgb(180, 32, 32);
+           
+        }
+        .head1:hover{
+            
+            cursor: default;
+        }
+        .head2:hover{
+            
+            cursor: default;
+        }
+        .head3:hover{
+            color:rgb(180, 32, 32);
+        }
+        
+        .head1 {
+            color:rgb(180, 32, 32);
+            font-family:'Times New Roman', Times, serif;
+            font-size:50px;
+            text-align: center;         
+            font-weight:bold;
+        }
+        .head2 {
+            font-style: italic;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size:17px;
+            margin-left:10px;
+            margin-bottom:10px;
+            
+        }
+        /*Generating Article Links*/
+        .head3 {    
+            color:black;
+            text-align: center;
+            font-size: 25px;
+
+        }
+     
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0 auto;
+            background-position:center;
+            background-size: contain;
+        }
+      
+        .menu {   
+            
+            position:sticky;
+            top: 0;
+            background-color: #000000;
+            padding: 0px 10px 0px;
+            color:white;
+            margin:auto;
+            overflow: hidden;
+            
+        }
+        .menu a {
+            
+            float:left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .menu-log {
+        
+            right: auto;
+            float:right;
+        }
+        footer {
+            width: 100%;
+            bottom: 0px;
+            background-color: #000;
+            color: #fff;
+            position: absolute;
+            padding-top:20px;
+            padding-bottom:5px;
+            text-align:center;
+            font-size:10px;
+            font-weight:bold;
+        }
+        @media only screen and (min-width: 700px)
+        {
+            .body_sec {
+                text-align: center;
+                margin-left:20%;
+                margin-right:20%;
+            }
+        }
+      
+        
